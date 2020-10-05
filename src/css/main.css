@@ -1,0 +1,263 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.theme-light {
+  --bg-background-primary: #FFFFFF;
+  --bg-background-secondary: #E5E9F0;
+  --bg-background-tertiary: #D8DEE9;
+
+  --bg-background-form: #FFFFFF;
+
+  --text-copy-primary: #2E3440;
+  --text-copy-secondary: #3B4252;
+
+  --border-border-color-primary: #FFFFFF;
+}
+
+.theme-light .search-highlighted {
+  background: #FFFFFF;
+}
+
+.theme-light .search-hover:hover {
+  background: #FFFFFF;
+}
+
+.theme-dark .markdown-body {
+    color: #2E3440;
+}
+
+.theme-dark .search-highlighted {
+  background: #2E3440;
+}
+
+.theme-dark .search-hover:hover {
+  background: #2E3440;
+}
+
+.theme-dark {
+  --bg-background-primary: #2E3440;
+  --bg-background-secondary: #2E3440;
+  --bg-background-tertiary: #2E3440;
+
+  --bg-background-form: #2E3440;
+
+  --text-copy-primary: #cbd5e0;
+  --text-copy-secondary: #e2e8f0;
+
+  --border-border-color-primary:  #2E3440;
+}
+
+.theme-dark .markdown-body {
+    color: #cbd5e0;
+}
+
+.content-wrapper {
+  transition: background-color .25s;
+}
+
+a {
+  @apply text-green-700 font-bold;
+}
+
+a:hover {
+  @apply text-green-800;
+}
+
+nav .active {
+  font-weight: bold;
+  @apply border-black border-b;
+}
+
+.container-inner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-inner {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-inner {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-inner {
+    max-width: 800px;
+  }
+}
+
+.checkmark {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2229%22%20height%3D%2229%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M4.427%2024.93A14.5%2014.5%200%201%201%2024.93%204.427c5.495%205.69%205.416%2014.733-.177%2020.326s-14.637%205.672-20.326.177z%22%20fill%3D%22%232E855A%22/%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M10.234%2012.803l3.67%203.253L20.766%2010%2023%2012l-9.096%208L8%2014.789l2.234-2z%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  @apply pl-10;
+}
+
+.responsive-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.laHIGl {
+    display: block;
+    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: 
+    transparent;
+    pointer-events: none;
+    user-select: none;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.cijXdC {
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(55, 61, 76);
+}
+
+.hRcAMi {
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(57, 64, 79);
+}
+
+.bopVfe {
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(59, 66, 82);
+}
+
+/* Untuk hero section halaman utama */
+.gQLtuu {
+    fill: 
+    rgb(41, 46, 57);
+    transition: fill 400ms ease-in-out 0s;
+}
+
+.gqbfyO {
+    display: unset;
+}
+.gqbfyO {
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    display: none;
+}
+
+/* section 2 */
+.csjXWx {
+    background-color: 
+    rgb(41, 46, 57);
+    transition: background-color 400ms ease-in-out 0s;
+    position: relative;
+}
+
+.bJfuyp {
+    width: 5.5em;
+    top: -4%;
+    right: unset;
+    left: 42%;
+}
+.bJfuyp {
+    width: 5em;
+    top: -3%;
+}
+.bJfuyp {
+    width: 4.5em;
+}
+.bJfuyp {
+    width: 4em;
+}
+.bJfuyp {
+    position: absolute;
+    z-index: 0;
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(59, 66, 82);
+    width: 3em;
+    right: 6%;
+    top: -1%;
+}
+
+.bKbVVp {
+    width: 6em;
+    top: 11%;
+    left: 6%;
+}
+.bKbVVp {
+    width: 5.5em;
+    top: 8%;
+    left: 4%;
+}
+.bKbVVp {
+    width: 4.5em;
+}
+.bKbVVp {
+    width: 3.5em;
+}
+.bKbVVp {
+    position: absolute;
+    z-index: 0;
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(59, 66, 82);
+    width: 3em;
+    top: 2%;
+    left: 2%;
+}
+
+.cBTJLm {
+    width: 5em;
+    bottom: 30%;
+    left: 34%;
+}
+.cBTJLm {
+    width: 4.5em;
+    right: unset;
+    left: 28%;
+    bottom: 25%;
+}
+.cBTJLm {
+    width: 4em;
+}
+.cBTJLm {
+    width: 3em;
+    bottom: 10%;
+    right: 10%;
+}
+.cBTJLm {
+    position: absolute;
+    z-index: 0;
+    transition: fill 400ms ease-in-out 0s;
+    fill: 
+    rgb(59, 66, 82);
+    width: 2.5em;
+    bottom: 6%;
+    right: 6%;
+}
+
+.ivkvrv {
+    fill: 
+    rgb(46, 52, 64);
+    transition: fill 400ms ease-in-out 0s;
+}
