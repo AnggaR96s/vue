@@ -22,9 +22,9 @@
     <div class="hero container mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="container mx-auto px-6">
         <h4 class="text-md mb-4 mt-16">HEY THERE !</h4>
-        <h2 class="text-4xl font-bold mb-4">I AM AFIF SUCHAIMI</h2>
-        <h3 class="text-2xl mb-8">FULLSTACK DEVELOPER.</h3>
-        <div class="mb-8">
+        <h2 class="text-4xl font-bold mb-4">I AM ANGGA</h2>
+        <h3 class="text-2xl mb-8">REBAHAN ADALAH JALAN NINJAKU.</h3>
+        <!--div class="mb-8">
           <span>
             <button
               class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider mr-6"
@@ -33,8 +33,8 @@
               class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider"
             >Get CV</button>
           </span>
-        </div>
-        <div>
+        </div-->
+        <!--div>
           <ul class="flex items-center mx-auto">
             <li class="mr-8 rounded-full">A</li>
             <li class="mr-8 rounded-full">A</li>
@@ -42,7 +42,7 @@
             <li class="mr-8 rounded-full">A</li>
             <li class="mr-8 rounded-full">A</li>
           </ul>
-        </div>
+        </div-->
       </div>
       <div>
         <img src="../../static/developer.svg" alt="hero" />
@@ -109,7 +109,7 @@
     <div class="container mx-auto">
       <p class="text-lg sm:text-xl">
         This gridsome theme was forked from my
-        <a href="https://andremadarang.com">personal website</a>. I added more features and decided to release it as an open source project. Check it out on
+        <a href="https://andremadarang.com">personal website</a>.
         <a
           href="https://github.com/drehimself/gridsome-portfolio-starter"
         >GitHub</a> or check out the
@@ -191,7 +191,7 @@
           >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
         </div>
 
-        <div class="responsive-container">
+        <!--div class="responsive-container">
           <iframe
             class="responsive-iframe w-full h-full top-0 left-0 border-0"
             src="https://www.youtube.com/embed/uHo6o1TNQeE"
@@ -199,7 +199,7 @@
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div>
+        </div-->
       </div>
       <!-- end get-to-know me -->
     </div>
