@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "gridsome-plugin-purgecss": "^1.0.12",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^3.1.8"
   }
 }
